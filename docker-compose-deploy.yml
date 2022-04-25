@@ -17,3 +17,7 @@ services:
     build: ./prometheus
     ports:
       - "9090:9090"
+  grafana:
+    image: 62070134_promethesus:latest
+    ports:
+      - "9999:9999"

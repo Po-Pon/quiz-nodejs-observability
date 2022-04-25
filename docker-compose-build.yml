@@ -10,5 +10,8 @@ services:
     image: service3:latest
     build: ./service3
   prometheus:
-    image: 62070215-prometheus:latest
+    image: 62070215_prometheus:latest
     build: ./prometheus
+  grafana:
+    image: 62070134_grafana:latest
+    build: ./grafana
